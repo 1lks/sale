@@ -1,0 +1,70 @@
+
+
+/**		FONT	**/
+
+h1, .componentheading, h2.contentheading, h2, h3, h4 {
+font-family: 'Nobile', 'Yanone Kaffeesatz';
+}
+
+#menu_left li a, #menu_left li span.separator,
+#menu_right li a, #menu_right li span.separator{
+font-family: 'Nobile', 'Yanone Kaffeesatz';
+}
+
+.left h3, .right h3, .user1 h3, .user2 h3, .user3 h3, 
+.user4 h3, .user5 h3, .user6 h3 {
+font-family: 'Nobile', 'Yanone Kaffeesatz';
+}
+
+body {
+font-family: 'Times new roman';
+}
+
+#logo span {
+font-family: 'Nobile', 'Yanone Kaffeesatz';
+}
+
+/**
+*			COLOR WEBSITE TITLE and SLOGAN
+**/
+
+#logo span {
+color:#000000;
+}
+
+#logo span span {
+color:#000000;
+}
+
+
+/**
+*			COLOR LINK
+**/
+
+a:hover {
+color:#336699;
+}
+
+#breadcrumb a:hover {
+color:#336699;
+}
+
+a.readon:hover {
+color:#336699;
+}
+
+.submenu li a:hover, .submenu li.active a {
+color:#336699;
+}
+.submenu li li a:hover, .submenu li li#current a, .submenu li li#current.parent a,
+.submenu li#current li a:hover, .submenu li.active li a:hover, .submenu li.parent li a:hover {
+color:#336699;
+}
+.submenu ul li li li a:hover, .submenu ul li li li#current a, .submenu ul li li li.active a,
+.submenu li.active li#current li a:hover {
+color:#336699;
+}
+.submenu li li li a:hover, .submenu li li li#current a, .submenu li li li.active a, .submenu li li li#current.parent a,
+.submenu li li#current li a:hover, .submenu li li.active li a:hover, .submenu li li.parent li a:hover {
+color:#336699;
+}

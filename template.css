@@ -1,0 +1,542 @@
+/*
+*		JoomSpirit CSS file for typo
+*/
+body {
+font-family: tahoma, helvetica neue, helvetica, arial, verdana, sans-serif;
+color:#46462b;
+line-height: 1.5em;
+}
+p {
+margin: 8px 0 14px 0;
+}
+#logo span {
+display:block;
+color:#000;
+font-family: tahoma, helvetica neue, helvetica, arial, verdana, sans-serif;
+text-transform: none;
+letter-spacing: -1px;
+font-weight:bold;
+font-size:50px;
+line-height:50px;
+}
+#logo span span {
+display:block;
+font-size:15px;
+line-height:15px;
+font-weight:bold;
+color:#000;
+margin-top:-2px;
+}
+h1, h2, h3, h4 {
+font-family: tahoma, helvetica neue, helvetica, arial, verdana, sans-serif;
+text-decoration: none;
+text-transform:none;
+font-weight:normal;
+padding:8px 0 4px 0;
+}
+h1, .componentheading, .contentheading {
+display: block;
+font-size:160%;
+font-weight:bold;
+line-height:20px;
+padding:  0 0 10px 12px;
+margin: -31px 0 14px 0;
+text-transform:none;
+text-align: center;
+letter-spacing:-0.3px;
+color:#222;
+}
+h1 a {
+color:#222;
+text-decoration: none;
+}
+h1 a:hover {
+color:#222;
+text-decoration: none;
+}
+h1 span, h1 a span, h1 a:hover span {
+color:#222;
+}
+h2 {
+font-size:110%;
+line-height:20px;
+padding:8px 0 4px 0;
+margin-bottom:8px;
+letter-spacing:-0.3px;
+color:#222;
+font-weight:bold;
+text-transform:none;
+}
+
+h2 a {
+color:#222;
+text-decoration: none;
+}
+h2 a:hover {
+text-decoration: none;
+color:#222;
+}
+
+h2.contentheading {
+margin : 0 0 12px 0;
+padding: 4px 6px;
+border-top:1px dotted #ccc;
+border-bottom:1px dotted #ccc;
+background: transparent url("") 0 0 repeat;
+}
+
+h3 {
+font-size:120%;
+line-height:16px;
+font-weight:normal;
+text-transform:none;
+color:#666;
+}
+h4 {
+font-size:105%;
+line-height:16px;
+font-weight:normal;
+text-transform:none;
+}
+h5 {
+font-size:100%;
+line-height:16px;
+font-weight:normal;
+text-transform:none;
+}
+/**	titles modules		**/
+.left h3, .right h3, .user1 h3, .user2 h3, .user3 h3, 
+.user4 h3, .user5 h3, .user6 h3 {
+margin-bottom:10px;
+padding:0 0 4px 0;
+font-weight:bold;
+letter-spacing:-0.3px;
+font-size:110%;
+color:#222;
+}
+.left h3 span, .right h3 span, .user1 h3 span, .user2 h3 span, .user3 h3 span, 
+.user4 h3 span, .user5 h3 span, .user6 h3 span {
+color:#222;
+}
+
+.content_four h1, .content_one h1, .content_two h1, .content_three h1 {
+margin:0;
+}
+
+
+/**			LINK		**/
+a {
+color:#46462b;
+text-decoration : underline;
+}
+a:hover {
+color:#336699;
+text-decoration : none;
+}
+a:active, a:focus {
+outline:none;
+}
+.link a {
+background: transparent url("") 0 50% no-repeat;
+padding-left:15px !important;
+line-height:18px;
+text-decoration:none;
+}
+/*	Pathway	*/
+#breadcrumb a, #breadcrumb {
+color:#aaa;
+text-decoration:none;
+}
+#breadcrumb a:hover {
+color:#336699;
+text-decoration:none;
+}
+/*	List  */
+
+.text-article ul, .blog_more ul, ul.normal, ul.check, ul.arrow, ul.normal_green, ul.check_green, ul.arrow_green, ul.circle, ul.circle_red,
+ul.normal_red, ul.check_red, ul.arrow_red, ul.normal_white, ul.check_white, ul.arrow_white, ul.circle_white  {
+margin: 10px 0 16px 6px;
+padding-left:0;
+}
+.text-article ul li, .blog_more ul li, .normal li, .check li, .arrow li, .normal_red li, .check_red li, .arrow_red li, .circle li,
+.circle_red li, .normal_white li, .check_white li, .arrow_white li, .circle_white li  {
+background: url("") 0 0px no-repeat;
+padding-left: 21px;
+list-style:none;
+margin:5px 0;
+}
+.text-article ul li:hover, .blog_more ul li:hover, .normal li:hover, .check li:hover, .arrow li:hover, .normal_red li:hover, .check_red li:hover, .arrow_red li:hover, .circle li:hover,
+.circle_red li:hover, .normal_white li:hover, .check_white li:hover, .arrow_white li:hover, .circle_white li:hover, ol li:hover  {
+color: #111;
+cursor:default;
+}
+.text-article ul ul, ul.normal ul, ul.check ul, ul.arrow ul, ul.normal_red ul, ul.check_red ul, ul.arrow_red ul, ul.circle ul, 
+ul.circle_red ul, ul.normal_white ul, ul.check_white ul, ul.arrow_white ul, ul.circle_white ul {
+margin-left: 0px;
+margin-top:4px;
+padding-left:0;
+}
+.text-article ul li li, .normal li li, .check li li, .arrow li li, .normal_red li li, .check_red li li , .arrow_red li li , .circle li li, 
+.circle_red li li, .circle_white li li, .check_white li li, .arrow_white li li, .normal_white li li  {
+background: url("") 0 0px no-repeat;
+padding-left: 18px;
+list-style:none;
+margin:5px 0;
+}
+
+.normal li {
+background: url("") 0 0px no-repeat !important;
+}
+.check li {
+background: url("") 0 0px no-repeat !important;
+}
+.arrow li {
+background: url("") 0 0px no-repeat !important;
+}
+.circle li {
+background: url("") 0 0px no-repeat !important;
+}
+.normal_red li {
+background: url("") 0 0px no-repeat !important;
+}
+.arrow_red li {
+background: url("") 0 0px no-repeat !important;
+}
+.check_red li {
+background: url("") 0 0px no-repeat !important;
+}
+.circle_red li {
+background: url("") 0 0px no-repeat !important;
+}
+
+ol {
+margin: 5px 0 0 6px;
+background-color: transparent;
+padding: 0 0 0 20px;
+}
+ol li {
+margin: 0;
+padding: 1px 5px;
+font-weight: normal;
+}
+
+ul li > h2, ul li > h3, ul li > h4 {
+margin-top : 0;
+padding-top:0;
+}
+/*
+*	Quotation
+*/
+blockquote.black, blockquote.red, blockquote.green, blockquote.pink, blockquote.white, blockquote.blue {
+margin: 10px 30px 10px 30px;
+padding: 10px 35px 10px 35px;
+border: none;
+background: url("") 0 5px no-repeat;
+text-align:justify;
+font-style:italic;
+font-size:105%;
+}
+blockquote.red {
+background: url("") 0 5px no-repeat;
+}
+blockquote.green {
+background: url("") 0 5px no-repeat;
+}
+blockquote.pink {
+background: url("") 0 5px no-repeat;
+}
+blockquote.white {
+background: url("") 0 5px no-repeat;
+}
+blockquote.blue {
+background: url("") 0 5px no-repeat;
+}
+blockquote.black p , blockquote.red p, blockquote.green p, blockquote.pink p, blockquote.white p, blockquote.blue p {
+margin: 0px -35px -10px 0px;
+padding: 0px 35px 10px 0px;
+background: url("") 100%  no-repeat;
+color: #444;
+}
+blockquote.red p {
+background: url("") 100%  no-repeat;
+color: #a93232;
+}
+blockquote.green p {
+background: url("") 100%  no-repeat;
+color: #88a160;
+}
+blockquote.pink p {
+background: url("") 100%  no-repeat;
+color: #99cc66;
+}
+blockquote.white p {
+background: url("") 100%  no-repeat;
+color: #eee;
+}
+blockquote.blue p {
+background: url("") 100%  no-repeat;
+color: #006699;
+}
+/**  DIV Info  **/
+.info {
+line-height:25px;
+padding-left:30px;
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
+background: #fff url("") 4px 3px no-repeat;
+margin: 10px 0;
+color: #000;
+}
+/**	login	**/
+#modlgn_username, #modlgn_passwd {
+background: transparent url("") top left repeat;
+font-size:90%;
+width:150px;
+}
+#modlgn_username:hover, #modlgn_passwd:hover,
+#modlgn_username:focus, #modlgn_passwd:focus {
+background: transparent url("") top left repeat;
+}
+#submit_login {
+float:left;
+font-size:90%;
+padding:2px 6px;
+}
+ul.icon_login {
+float:left;
+margin: 0 0 0 4px;
+}
+ul.icon_login li, ul.icon_login li {
+display:block;
+float:left;
+width:16px;
+height:16px;
+margin:4px 0 0 5px;
+}
+ul.icon_login li a:hover, ul.icon_login li#current a, ul.icon_login li.active a {
+border:none;
+}
+#form-login-remember {
+clear:both;
+padding-top:8px;
+}
+p#form-login-username {
+margin:0;
+}
+p#form-login-password {
+margin: 8px 0 8px 0;
+}
+#modlgn_remember {
+background-color:transparent;
+border:none;
+}
+/**	read more	**/
+a.readon {
+background: transparent url("") top left repeat;
+border:1px solid #eee;
+border-color:#ddd #bbb #bbb #ddd ;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+-khtml-border-radius: 4px;
+border-radius: 4px;
+display:block;
+float:right;
+font-size:12px;
+font-weight:normal;
+margin-right:2px;
+margin-top:0px;
+padding:4px 21px 3px 14px;
+text-decoration:none;
+text-transform:none;
+text-shadow: 0px 1px 0px #fff;
+font-style:italic;
+}
+a.readon:hover {
+background: transparent url("") top left repeat;
+border-color: #bbb #ddd #ddd #bbb;
+color: #336699;
+text-decoration:none;
+}
+/** 	TOOL TIPS		**/
+
+.tips {
+text-decoration:underline;
+cursor:pointer;
+}
+
+.tool-tip {
+width: 200px;
+z-index: 13000;
+}
+ 
+.tool-title {
+font-weight: bold;
+font-size: 115%;
+margin: 0;
+color:#e95e25;
+padding: 8px;
+background: transparent url("") top left no-repeat;
+}
+ 
+.tool-text {
+font-size: 100%;
+padding: 4px 8px 16px 8px;
+color: #222;
+background: transparent url("") bottom right no-repeat;
+}
+
+/**		Images 	**/
+
+.shadow {
+margin: 4px;
+-moz-box-shadow : 2px 2px 6px #888;
+-webkit-box-shadow : 2px 2px 6px #888;
+border:4px solid #eee;
+}
+
+a .shadow:hover {
+border-color : #aaa ;
+-moz-box-shadow : 2px 2px 6px #bbb;
+-webkit-box-shadow : 2px 2px 6px #bbb;
+}
+
+
+/**		FOOTER		**/
+#bottom_site {
+color:#ccc;
+}
+#bottom_site a {
+color:#ddd;
+text-decoration : underline;
+}
+#bottom_site a:hover {
+color:#eee;
+text-shadow: 0px 0px 20px #ccc;
+text-decoration: none;
+}
+
+
+/* Новостной слайдер */
+
+#wrapper {
+    width: 100%;
+    position: relative; /* относительное позиционирование */
+    overflow: hidden;
+}
+#rsb {
+    background: #333;
+    position: absolute;
+    right: 0; /* выравниваем по правому краю ... */
+    top: 0; /* ... и по высоте */
+    width: 220px;
+    z-index: 2; /* это для того, чтобы на небольших экранах панель была над основным контентом */
+}
+#rsbinner {
+    position: relative;
+}
+#togglersb {
+    background: #333 url("") 3px -40px no-repeat;
+    cursor: pointer;
+    height: 40px;
+    left: -16px;
+    position: absolute;
+    top: 50px;
+    width: 16px;
+}
+#togglersb.active {
+    background-position: 3px 0;
+
+
+
+
+/* Всплывающее окно */	
+#parent_popup {
+  background-color: transparent;
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#popup { 
+  background: transparent;
+  text-align: center;
+    width: 431px;
+    margin: 15% auto;
+	border: 2px solid transparent;
+	position: relative;
+	/*--CSS3 CSS3 Тени для Блока--*/
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	/*--CSS3 Закругленные углы--*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 1px;
+}
+#popup h1{
+    font:30px Monotype Corsiva, Arial;
+    font-weight: bold;
+	text-align: center;
+        margin-top: -100px;
+        margin-left: 140px;
+	color: #A00000 ;
+        text-shadow: 0 1px 3px rgba(0,0,0,.3);
+	}
+#popup h2{
+    font:26px Monotype Corsiva, Arial;   
+    font-weight: bold;   
+	color: #008000;
+	text-align: center;
+        text-shadow: 0 1px 3px rgba(0,0,0,.3);
+        margin-top: 5px;
+	}
+#popup h3{
+    font:20px Monotype Corsiva, Arial;      
+	color: #000000;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.3);
+	}
+#popup h4{
+    font:16px Monotype Corsiva, Arial;      
+	color: #000000;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.3);
+        margin-top: 5px;
+	}
+#popup h5{
+    font:18px Monotype Corsiva, Arial;      
+	color: #EE2C2C;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.3);
+        margin-top: 15px;
+	}
+
+
+/* кнопка закрытия */
+.close {
+    background-color: rgba(0, 0, 0, 0.8);
+	border: 2px solid #ccc;
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    right: -32px;
+	cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+	color: rgba(255, 255, 255,255);
+    font-size: 15px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    top: -32px;
+    width: 25px;
+	
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background-color: rgb(168,0,0);
+}

@@ -1,0 +1,487 @@
+body {
+background-color: #000;
+}
+
+
+#close-box {
+background: transparent url("") 0 0 no-repeat;
+}
+
+/**	content module **/
+.content_one {
+background : transparent url("black-80.png") 0 0 repeat;
+}
+.content_two {
+background : transparent url("black-80.png") 0 0 repeat;
+}
+.content_three {
+background : transparent url("black-80.png") 0 0 repeat;
+}
+.content_four {
+background : transparent url("black-80.png") 0 0 repeat;
+}
+
+
+
+/**	middle site	**/
+
+
+#middle-site .wrapper > div {
+border-top: 1px solid transparent;
+border-bottom: 1px solid transparent;
+
+}
+
+.left {
+border-right: 1px solid #303030;
+}
+.right {
+border-left: 1px solid #303030;
+}
+
+.shadow {
+-moz-box-shadow : 0px 2px 10px #999;
+-webkit-box-shadow : 0px 2px 10px #999;
+border:4px solid #666;
+}
+
+a .shadow:hover {
+border-color : #888 ;
+-moz-box-shadow : 2px 2px 6px #ccc;
+-webkit-box-shadow : 2px 2px 6px #ccc;
+}
+
+
+/**	BLOG LIST	**/
+.sectiontableheader {
+background: transparent url("") top left repeat;
+}
+.sectiontableheader a {
+color: #eee;
+}
+tr.sectiontableentry1 td {
+border-bottom: 1px dotted #ddd;
+}
+tr.sectiontableentry2 td {
+background: transparent url("") top left repeat;
+border-bottom: 1px dotted #ddd;
+}
+tr.sectiontableentry1:hover td, tr.sectiontableentry2:hover td {
+background: transparent url("") top left repeat;
+border-bottom: 1px dotted #ddd;
+}
+
+#main_component tr, #main_component td {
+border:1px solid #777;
+}
+
+/**	FORMULAIRE	**/
+.inputbox {
+background: transparent url("") top left repeat;
+border:1px solid #555;
+border-color:#555 #666 #666 #555 ;
+color:#ddd !important;
+}
+
+.inputbox:hover, .inputbox:focus {
+background: transparent url("") top left repeat;
+border-color: #666 #555 #555 #666;
+color: #fff !important;
+}
+
+ul.pagenav li {
+border:1px solid #555;
+}
+
+ul.pagenav li:hover {
+background: transparent url("") 0 0 repeat !important;
+}
+
+.panel {
+/** border:1px solid #444; **/
+/* background: transparent url(../images/white-14.png) 0 0 repeat; */
+}
+
+/**	weblinks	**/
+
+table.weblinks th, table.newsfeeds th, table.category th, table.jlist-table th {
+background: transparent url("") 0 0 repeat;
+color:#eee;
+}
+
+table.weblinks th a, table.newsfeeds th a, table.category th a, table.jlist-table th a  {
+color:#eee !important;
+}
+
+#main_component th, #main_component tr, #main_component td {
+border:1px solid #444;
+}
+
+/**	pagination	**/
+
+.pagination {
+border-top:1px solid #555;
+}
+
+.pagination li {
+border:1px solid #555;
+}
+
+/**	items more	**/
+
+.items-more h3 {
+border-bottom:1px solid #555;
+border-top:1px solid #555;
+color:#eee;
+}
+
+
+/**		pagination	**/
+.blog_more {
+border-bottom:1px dotted #999;
+border-top:1px dotted #999;
+}
+
+.blog_more h2 {
+color:#eee;
+}
+
+/**	contact	**/
+
+#contact_id option {
+background-color:#222;
+color: #fff;
+}
+
+
+/**
+**			TEMPLATE.CSS
+**/
+
+/*
+*		JoomSpirit CSS file for typo
+*/
+body {
+color:#E6E6FA;
+}
+
+#logo span {
+color:#fff;
+}
+#logo span span {
+color:#fff;
+}
+
+h1, .componentheading, .contentheading {
+color:#fff;
+text-align: center;
+}
+h1 a {
+color:#fff;
+}
+h1 a:hover {
+color:#fff;
+}
+h1 span, h1 a span, h1 a:hover span {
+color:#fff;
+}
+h2 {
+color:#fff;
+}
+
+h2 a {
+color:#fff;
+}
+h2 a:hover {
+color:#fff;
+}
+
+h2.contentheading {
+border-top:1px dotted #555;
+border-bottom:1px dotted #555;
+background: transparent url("") 0 0 repeat;
+}
+
+h3 {
+color:#eee;
+}
+h4 {
+color:#eee;
+}
+
+/**	titles modules		**/
+.left h3, .right h3, .user1 h3, .user2 h3, .user3 h3, 
+.user4 h3, .user5 h3, .user6 h3 {
+color:#eee;
+}
+.left h3 span, .right h3 span, .user1 h3 span, .user2 h3 span, .user3 h3 span, 
+.user4 h3 span, .user5 h3 span, .user6 h3 span {
+color:#eee;
+}
+/**			LINK		**/
+a {
+color:#ffbf00;
+}
+
+.link a {
+background: transparent url("") 0 50% no-repeat;
+}
+/*	Pathway	*/
+#breadcrumb a, #breadcrumb {
+color:#aaa;
+}
+
+/*	List  */
+
+
+.text-article ul li, .blog_more ul li, .normal li, .check li, .arrow li, .normal_red li, .check_red li, .arrow_red li, .circle li,
+.circle_red li, .normal_white li, .check_white li, .arrow_white li, .circle_white li  {
+background: url("") 0 0px no-repeat;
+}
+.text-article ul li:hover, .blog_more ul li:hover, .normal li:hover, .check li:hover, .arrow li:hover, .normal_red li:hover, .check_red li:hover, .arrow_red li:hover, .circle li:hover,
+.circle_red li:hover, .normal_white li:hover, .check_white li:hover, .arrow_white li:hover, .circle_white li:hover, ol li:hover  {
+color: #eee;
+}
+
+.text-article ul li li, .normal li li, .check li li, .arrow li li, .normal_red li li, .check_red li li , .arrow_red li li , .circle li li, 
+.circle_red li li, .circle_white li li, .check_white li li, .arrow_white li li, .normal_white li li  {
+background: url("") 0 0px no-repeat;
+}
+
+.normal li {
+background: url("") 0 0px no-repeat !important;
+}
+.check li {
+background: url("") 0 0px no-repeat !important;
+}
+.arrow li {
+background: url("") 0 0px no-repeat !important;
+}
+.circle li {
+background: url("") 0 0px no-repeat !important;
+}
+.normal_red li {
+background: url("") 0 0px no-repeat !important;
+}
+.arrow_red li {
+background: url("") 0 0px no-repeat !important;
+}
+.check_red li {
+background: url("") 0 0px no-repeat !important;
+}
+.circle_red li {
+background: url("") 0 0px no-repeat !important;
+}
+
+/**  DIV Info  **/
+.info {
+border-top:1px solid #777;
+border-bottom:1px solid #777;
+background: #555 url("") 4px 3px no-repeat;
+color: #fff;
+}
+/**	login	**/
+#modlgn_username, #modlgn_passwd {
+background: transparent url("") top left repeat;
+}
+#modlgn_username:hover, #modlgn_passwd:hover,
+#modlgn_username:focus, #modlgn_passwd:focus {
+background: transparent url("") top left repeat;
+}
+
+/**	read more	**/
+a.readon {
+background: transparent url("") top left repeat;
+border:1px solid #555;
+border-color:#666 #555 #555 #666 ;
+text-shadow: none;
+color:#ddd;
+}
+a.readon:hover {
+background: transparent url("") top left repeat;
+border-color: #555 #666 #666 #555;
+color: #fff;
+}
+
+
+/**
+**		NAV.CSS
+**/
+
+.submenu li a, .submenu li span.separator {
+border-bottom:1px dotted #444;
+color:#ddd;
+}
+.submenu li li a, .submenu li li span.separator {
+border-bottom:1px dotted #303030;
+color:#ddd;
+}
+
+.submenu li a:hover li a, .submenu li#current li a, .submenu li.active li a {
+color:#ddd;
+}
+.submenu li.parent li a, .submenu li.parent li span.separator {
+color:#ddd;
+}
+.submenu li#current.parent li a, .submenu li.active.parent li a {
+color:#ddd;
+}
+.submenu li li li a, .submenu li li li span.separator {
+color:#ddd;
+}
+.submenu li.active li#current li a {
+color:#ddd;
+}
+
+
+/**
+**		MOOMENUH.CSS
+**/
+
+
+#main_menu li {
+background: transparent url("bg-main-menu-black.png") 100% 0px no-repeat;
+}
+#main_menu li a, #main_menu li span.separator {
+color:#fff;
+}
+#main_menu li:hover, #main_menu li.sfhover, #main_menu li.active {
+background: transparent url("bg-main-menu-black.png") 100% -60px no-repeat;
+color:#000;
+}
+#main_menu li:hover a, #main_menu li:hover span.separator, #main_menu li.active a, #main_menu li.active span.separator {
+color:#000;
+}
+#main_menu li:hover li a, #main_menu li:hover li span.separator, #main_menu li.active li a, #main_menu li.active li span.separator {
+color:#999;
+}
+#main_menu li li, #main_menu li li:hover, #main_menu li li.sfhover, #main_menu li li.active,
+#main_menu li:hover li, #main_menu li.sfhover li, #main_menu li.active li, #main_menu li.active li a,
+#main_menu li li:hover a, #main_menu li li:hover span.separator, #main_menu li li.active a, #main_menu li li.active span.separator,
+#main_menu li:hover li a, #main_menu li:hover li span.separator, #main_menu li.sfhover li a, #main_menu li.sfhover li span.separator, #main_menu li.active li a, #main_menu li.active span.separator li a,
+#main_menu li li.shhover a, #main_menu li li.sfhover span.separator, #main_menu li.shhover li a, #main_menu li.sfhover span.separator li {
+background-image:none;
+}
+#js-fs h1 {position: absolute; top: 0px; left: -6310px;}
+#main_menu li li a, #main_menu li li span.separator {
+color:#999;
+border-top: 1px dashed #ccc;
+}
+#main_menu li li li:first-child a, #main_menu li li li:first-child span.separator {
+border-top:none;
+}
+#main_menu li ul {
+background: transparent url("") 0 100% repeat-y;
+}
+#main_menu li ul ul {
+background-color:#eee;
+}
+/** si est actif niveau 1 	**/
+#main_menu #current a, #main_menu #current span.separator {
+color:#000;
+text-decoration:none;
+}
+
+/** si est actif niveau 2+ 	**/
+#main_menu ul #current a, #main_menu ul #current span.separator,
+#main_menu #current ul a:hover, #main_menu #current ul span.separator:hover {
+color:#000;
+}
+
+/** si parent actif et enfant actif **/
+#main_menu li.parent.active li a:hover, #main_menu li li.parent.active li a:hover, #main_menu li li li.parent.active li a:hover, #main_menu li.parent.active li span.separator:hover,
+#main_menu li.parent.active li li span.separator:hover, #main_menu li.parent.active li li a:hover {
+color:#000;
+}
+
+/** si est parent actif niveau 1	**/
+#main_menu li.parent.active a, #main_menu li.parent.active span.separator {
+color:#000;
+}
+
+/** si est parent actif niveau 2+	**/
+#main_menu li li.parent.active a, #main_menu li li li.parent.active a, #main_menu li li li li.parent.active a,
+#main_menu li.parent.active li.parent.active a, #main_menu li li.parent.active li.parent.active a, #main_menu li li li.parent.active li.parent.active a,
+#main_menu li li.parent.active span.separator, #main_menu li.parent.active li.parent.active span.separator{
+color:#000;
+}
+
+/** si est survol niveau 1	**/
+#main_menu li a:hover, #main_menu li.parent a:hover, #main_menu li.sfhover span.separator, #main_menu li.sfhover a,
+#main_menu li span.separator:hover, #main_menu li.parent span.separator:hover {
+color:#000;
+}
+
+/** si est survol niveau 2+	**/
+#main_menu li li a:hover, #main_menu li li li a:hover, #main_menu li.parent li a:hover, #main_menu li.parent li li a:hover,
+#main_menu li.parent.active li.parent a:hover, #main_menu li li.parent.active li.parent a:hover, #main_menu li li li.parent.active li.parent a:hover,
+#main_menu li.parent.active li.parent.active a:hover, #main_menu li li.parent.active li.parent.active a:hover, #main_menu li li li.parent.active li.parent.active a:hover,
+#main_menu li li span.separator:hover, #main_menu li.parent li span.separator:hover, #main_menu li.parent.active li.parent span.separator:hover,
+#main_menu li li.sfhover a, #main_menu li li.sfhover span.separator, #main_menu li li li.sfhover a, #main_menu li li li.sfhover span.separator {
+color:#000;
+}
+
+/** si courant survol **/
+#main_menu li#current li a:hover, #main_menu li#current li span.separator:hover {
+color:#000;
+}
+
+#main_menu li a:hover, #main_menu li span.separator:hover {
+color:#000;
+}
+
+
+/** si est enfant **/
+#main_menu li.parent li a, #main_menu li.parent li li a, #main_menu li.parent li li li a,
+#main_menu li.parent li span.separator, #main_menu li.parent li li span.separator, #main_menu li.parent li li li span.separator  {
+color:#999;
+}
+
+/** si est enfant de parent actif niveau 1	**/
+#main_menu li.parent.active li a, #main_menu li.parent.active li span.separator {
+color:#999;
+}
+
+/** si est parent niveau 2+	**/
+#main_menu li li.parent a, #main_menu li li li.parent a, #main_menu li li li li.parent a,
+#main_menu li li.parent span.separator, #main_menu li li li.parent span.separator, #main_menu li li li li.parent span.separator {
+color:#999;
+}
+
+/** si parent actif et enfant non actif **/
+#main_menu li.parent.active li a, #main_menu li li.parent.active li a, #main_menu li li li.parent.active li a,
+#main_menu li.parent.active li span.separator, #main_menu li li.parent.active li span.separator, #main_menu li li li.parent.active li span.separator {
+color:#999;
+}
+
+#main_menu li.parent.active li.parent a, #main_menu li li.parent.active li.parent a, #main_menu li li li.parent.active li.parent a,
+#main_menu li.parent.active li.parent span.separator, #main_menu li li.parent.active li.parent span.separator, #main_menu li li li.parent.active li.parent span.separator {
+color:#999;
+}
+
+#main_menu li#current li a, #main_menu li#current li span.separator {
+color:#999;
+}
+
+#main_menu #current li.parent a, #main_menu #current li.parent span.separator {
+color:#999;
+}
+
+/**	niveau 2	**/
+#main_menu #current li a, #main_menu #current li span.separator {
+color:#999;
+}
+
+/**	niveau 2+	**/
+#main_menu #current li.parent li a, #main_menu li.parent.active li.parent li a, #main_menu li li.parent.active li.parent li a, #main_menu li li li.parent.active li.parent li a,
+#main_menu li.parent.active li.parent.active li a, #main_menu li li.parent.active li.parent.active li a, #main_menu li li li.parent.active li.parent.active li a,
+#main_menu #current li.parent li span.separator, #main_menu li.parent.active li.parent li span.separator, #main_menu li li.parent.active li.parent li span.separator, #main_menu li li li.parent.active li.parent li span.separator,
+#main_menu li.parent.active li.parent.active li span.separator, #main_menu li li.parent.active li.parent.active li span.separator, #main_menu li li li.parent.active li.parent.active li span.separator {
+color:#999;
+}
+
+#main_menu #current li.parent li a:hover, #main_menu #current li.parent li span.separator:hover {
+color:#000;
+}
+
+
